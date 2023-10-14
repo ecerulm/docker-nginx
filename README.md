@@ -1,5 +1,3 @@
-https://hub.docker.com/_/nginx
-
 # Create multi-architecture image (intel / Apple Silicon M1 / M2)
 
 ```
@@ -28,7 +26,8 @@ curl http://localhost:8080
 # References
 
 - [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
-    - [EXPOSE](https://docs.docker.com/engine/reference/builder/#expose) 
+  - [EXPOSE](https://docs.docker.com/engine/reference/builder/#expose)
 - docker run [-p 8080:80](https://docs.docker.com/engine/reference/run/#expose-incoming-ports)
 - https://www.macstadium.com/blog/building-docker-images-on-apple-silicon-with-buildx
 - https://www.docker.com/blog/multi-arch-build-and-images-the-simple-way/
+- Official [NGINX image](https://hub.docker.com/_/nginx)
